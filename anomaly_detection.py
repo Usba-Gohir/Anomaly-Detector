@@ -64,7 +64,7 @@ def load_images_from_directory(directory, image_size=(128, 128)):
 # Main function to train the autoencoder
 def main():
     # Define paths
-    train_dir = "C:\\Users\\usbag\\Desktop\\cap\\freshtomato"  # Training data directory
+    train_dir = "C:\\Users\\usbag\\Desktop\\Anomaly Detector\\freshtomato"  # Training data directory
     output_model_path = "improved_autoencoder.keras"           # Save trained model as `.keras`
     image_size = (128, 128, 3)                                 # Image dimensions
 

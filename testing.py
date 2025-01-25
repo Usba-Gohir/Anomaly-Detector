@@ -123,7 +123,7 @@ def plot_error_distributions(results, threshold):
 # Main function to test the autoencoder
 def main():
     # Define paths and parameters
-    test_dir = "C:\\Users\\usbag\\Desktop\\cap\\test"      # Test data directory
+    test_dir = "C:\\Users\\usbag\\Desktop\\Anomaly Detector\\test"      # Test data directory
     threshold = 0.004207843                                     # Threshold for anomaly detection
     image_size = (128, 128)                               # Image dimensions
 
